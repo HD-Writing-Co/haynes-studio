@@ -28,3 +28,5 @@ body{background:#fff;color:var(--ink)}.header{background:#fff;border-color:#d7e3
 /* Personalized billboard with portrait-safe crops. */
 .portfolio-hero{background-position:center 25%}.portfolio-hero:before{background:linear-gradient(90deg,rgba(10,23,43,.95),rgba(10,23,43,.88) 33%,rgba(10,23,43,.3) 55%,transparent 72%)}
 @media(max-width:760px){.portfolio-hero{padding-top:260px;background:#14243a;isolation:isolate}.portfolio-hero:after{content:'';position:absolute;top:0;left:0;right:0;height:260px;background:url('assets/billy-studio-hero.webp') 80% 20%/cover no-repeat;z-index:-1}.portfolio-hero:before{background:none}.portfolio-hero-copy{padding:36px 0 40px}.portfolio-hero h1{font-size:clamp(44px,8vw,62px)}}
+
+.template-art:has(.ridgeline-preview),.portfolio-home .template-art:has(.ridgeline-preview){padding:0;background:#080808;min-height:0}.ridgeline-preview{display:block;width:100%;height:auto;align-self:center}

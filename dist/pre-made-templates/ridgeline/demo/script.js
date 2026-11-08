@@ -27,3 +27,14 @@ const form=document.getElementById('contact-form'),status=document.getElementByI
 form.querySelector('[type=submit]').disabled=false;
 if(config.formEndpoint)document.getElementById('form-note').textContent='Share a few details and our team will follow up.';
 form.addEventListener('submit',async e=>{e.preventDefault();if(!form.reportValidity())return;if(!config.formEndpoint){status.textContent='Demo complete — your form is valid. No message was sent or stored. Connect a form service in config.js to receive inquiries.';return;}const button=form.querySelector('[type=submit]');button.disabled=true;status.textContent='Sending your request…';try{if(!config.formEndpoint.startsWith('https://'))throw new Error('HTTPS required');const response=await fetch(config.formEndpoint,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});if(!response.ok)throw new Error('Submission failed');status.textContent='Thank you. Your request has been sent.';form.reset();}catch{status.textContent='We could not send your request. Please try again or contact us by phone or email.';}finally{button.disabled=false;}});
+
+// Roof slideshow: pause on request, hidden tabs, hover/focus, or reduced motion.
+const slides=[...document.querySelectorAll('.roof-slide')],slideButton=document.getElementById('slideshow-toggle'),slideCounter=document.getElementById('slide-count');
+if(slides.length&&slideButton){
+ const preference=matchMedia('(prefers-reduced-motion: reduce)');let current=0,paused=preference.matches,timer=null,hovered=false,focused=false;
+ const area=document.querySelector('.hero');
+ function syncSlides(){clearInterval(timer);timer=null;slideButton.textContent=paused?'Play slideshow':'Pause slideshow';slideButton.setAttribute('aria-pressed',String(paused));if(!paused&&!document.hidden&&!hovered&&!focused)timer=setInterval(()=>{slides[current].classList.remove('is-active');current=(current+1)%slides.length;slides[current].classList.add('is-active');slideCounter.textContent=String(current+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');},5500);}
+ slideButton.addEventListener('click',()=>{paused=!paused;syncSlides();});
+ document.addEventListener('visibilitychange',syncSlides);preference.addEventListener('change',()=>{paused=preference.matches;syncSlides();});
+ area.addEventListener('mouseenter',()=>{hovered=true;syncSlides();});area.addEventListener('mouseleave',()=>{hovered=false;syncSlides();});area.addEventListener('focusin',()=>{focused=true;syncSlides();});area.addEventListener('focusout',e=>{if(!area.contains(e.relatedTarget)){focused=false;syncSlides();}});syncSlides();
+}
