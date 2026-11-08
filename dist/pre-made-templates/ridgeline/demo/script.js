@@ -11,12 +11,10 @@ function closeMenu(){menu.hidden=true;menuButton.setAttribute('aria-expanded','f
 menuButton.addEventListener('click',()=>{menu.hidden=!menu.hidden;menuButton.setAttribute('aria-expanded',String(!menu.hidden));});
 menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!menu.hidden){closeMenu();menuButton.focus();}});
-const heroVideo=document.querySelector('.hero-video'),motion=document.getElementById('motion-toggle');
-motion.addEventListener('click',async()=>{if(heroVideo.paused){try{await heroVideo.play();motion.textContent='Pause background';}catch{motion.textContent='Video unavailable';}}else{heroVideo.pause();motion.textContent='Play background';}});
 const dialog=document.getElementById('media-dialog'), media=document.getElementById('media-content');
 let opener;
 function openMedia(title,node,trigger){opener=trigger;document.getElementById('media-title').textContent=title;media.replaceChildren(node);dialog.showModal();}
-document.querySelectorAll('[data-video]').forEach(button=>button.addEventListener('click',()=>{const video=document.createElement('video');video.controls=true;video.playsInline=true;video.src='assets/placeholder-video.mp4';video.poster='assets/hero.svg';video.setAttribute('aria-label','Silent abstract roofing placeholder video');openMedia('Company introduction — placeholder video',video,button);video.play().catch(()=>{});}));
+document.querySelectorAll('[data-video]').forEach(button=>button.addEventListener('click',()=>{const video=document.createElement('video');video.controls=true;video.playsInline=true;video.src='assets/placeholder-video.mp4';video.poster='assets/roof-home.webp';video.setAttribute('aria-label','Silent abstract roofing placeholder video');openMedia('Company introduction — placeholder video',video,button);video.play().catch(()=>{});}));
 document.querySelectorAll('[data-image]').forEach(button=>button.addEventListener('click',()=>{const img=document.createElement('img');img.src=button.dataset.image;img.alt=button.dataset.caption;openMedia(button.dataset.caption,img,button);}));
 document.getElementById('close-dialog').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});

@@ -7,3 +7,5 @@ The studio code and geometric/CSS illustrations were created for this project. B
 Ridgeline contains original illustrative assets and a silent placeholder video from the preceding template package. No external runtime library, stock photo, analytics script, or payment SDK is bundled. Replacement assets may have their own licenses.
 
 The studio-workspace.png hero image was generated with OpenAI image generation for this site. It is illustrative, not a photograph of the owner’s workspace or a screenshot of the delivered Ridgeline template.
+
+Ridgeline redesign: layout direction informed by roofraiders.com; original implementation and copy. Roofing images roof-home.webp, consultation.webp, roof-detail.webp and metal-roof.webp are AI-generated illustrative template assets, not real client work. No reference-site photos, awards, logos or testimonials are included.
