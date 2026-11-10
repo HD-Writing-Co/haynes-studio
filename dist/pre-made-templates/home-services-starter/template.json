@@ -1,0 +1,12 @@
+{
+  "name": "Home Services Starter",
+  "niche": "Home Services & Contractors",
+  "idealFor": "Handyman businesses and general contractors",
+  "description": "A crisp, simple one-page design with service cards, an About section, and contact placeholders. Four switchable color palettes.",
+  "platform": "HTML · CSS · JavaScript",
+  "tier": "free",
+  "priceLabel": "Free starter · Live demo",
+  "preview": "../assets/template-previews/home-services-starter.webp",
+  "demoPath": "index.html",
+  "order": 1
+}

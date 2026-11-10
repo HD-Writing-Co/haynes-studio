@@ -1,0 +1,12 @@
+{
+  "name": "Northline Auto",
+  "niche": "Automotive",
+  "idealFor": "Independent auto repair, tire, and maintenance shops",
+  "description": "A bold automotive starter with locally bundled vehicle imagery, service cards, contact placeholders, and four color schemes.",
+  "platform": "HTML · CSS · JavaScript",
+  "tier": "free",
+  "priceLabel": "Free starter · Live demo",
+  "preview": "../assets/template-previews/northline-auto-template.webp",
+  "demoPath": "index.html",
+  "order": 4
+}

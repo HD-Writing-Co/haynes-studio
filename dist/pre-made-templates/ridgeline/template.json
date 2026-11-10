@@ -1,0 +1,16 @@
+{
+  "name": "Ridgeline",
+  "niche": "Home Services & Contractors",
+  "idealFor": "Roofers, exterior contractors, and local home-service businesses",
+  "description": "A polished roofing website concept with a project gallery, FAQ, interactive sections, and an inquiry-form layout that requires setup.",
+  "platform": "HTML · CSS · JavaScript",
+  "tier": "preview",
+  "priceLabel": "Premium · Pricing announced at launch",
+  "preview": "../assets/ridgeline-preview.svg",
+  "imageAlt": "Ridgeline roofing website concept with a dark navigation bar and house photography",
+  "demoPath": "demo/index.html",
+  "detailsPath": "index.html",
+  "featured": true,
+  "order": 0,
+  "badge": "PREMIUM PREVIEW"
+}
