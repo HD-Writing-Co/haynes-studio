@@ -1,0 +1,21 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 590 450" xmlns="http://www.w3.org/2000/svg" ><style>.sun{fill:#e8b977}.ground{fill:#c3c8ae}.back-hill{fill:#dee3ce}.house-shadow{fill:#b1baa7}.house-body{fill:#f5f0e4}.roof{stroke:#213f34}.roof-line{stroke:#a5b2a3}.house-door{fill:#99684a}.door-knob{fill:#fff2cf}.window-frame{fill:#213f34}.window-pane{fill:#cae7ee}.window-cross{stroke:#294c3d}.bush{fill:#709d79}.path{fill:#e5d2ab}</style>
+              <circle cx="462" cy="79" r="43" class="sun" />
+              <path class="ground" d="M0 373c104-29 203-27 295-13 109 17 178 4 295-21v111H0z" />
+              <path class="back-hill" d="M0 341c119-48 196-41 319-13 86 20 172 13 271-16v138H0z" />
+              <rect class="house-shadow" x="131" y="185" width="352" height="198" rx="8" />
+              <path class="house-body" d="M152 185 303 84l151 101v183H152z" />
+              <path class="roof" d="M126 190 303 66l177 124" fill="none" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+              <path class="roof-line" d="M134 192 303 74l169 118" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <rect class="house-door" x="270" y="261" width="70" height="107" rx="3"/>
+              <circle class="door-knob" cx="326" cy="315" r="4"/>
+              <rect class="window-frame" x="181" y="239" width="62" height="71" rx="3"/>
+              <rect class="window-pane" x="187" y="245" width="50" height="59" rx="1"/>
+              <path class="window-cross" d="M212 245v59m-25-29h50" fill="none" stroke-width="5"/>
+              <rect class="window-frame" x="373" y="239" width="62" height="71" rx="3"/>
+              <rect class="window-pane" x="379" y="245" width="50" height="59" rx="1"/>
+              <path class="window-cross" d="M404 245v59m-25-29h50" fill="none" stroke-width="5"/>
+              <circle class="bush" cx="116" cy="359" r="37"/><circle class="bush" cx="145" cy="360" r="28"/>
+              <circle class="bush" cx="469" cy="350" r="30"/><circle class="bush" cx="503" cy="363" r="34"/>
+              <path class="path" d="M282 368h46l39 82H238z" />
+              <path class="sparkle" d="M62 147v36M44 165h36M518 177v26M505 190h26" fill="none" stroke-width="3" stroke-linecap="round" />
+            </svg>
