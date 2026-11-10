@@ -14,3 +14,311 @@ body{background:#fff;color:var(--b2l-ink)}.modern-home .header{background:#f9fcf
 @media(min-width:761px){.modern-home .portfolio-hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(115deg,#f5faf6 0%,#edf7f1 58%,#e2f0e8 100%)}.modern-home .portfolio-hero:after{content:"";position:absolute;z-index:-1;right:4%;top:8%;bottom:8%;width:37%;border-radius:44% 44% 18px 18px;background:linear-gradient(180deg,#155b4310,#155b4330),url('assets/billy-studio-hero.webp') 82% center/cover no-repeat;box-shadow:0 24px 60px #153e3222}.modern-home .portfolio-hero:before{display:block;inset:auto;right:33%;top:22%;width:100px;height:100px;border-radius:50%;background:#247bc11a;z-index:-1}.modern-home .portfolio-hero-copy{margin:0;width:min(1280px,88%);max-width:none;text-align:left;padding:115px 0 120px}.modern-home .portfolio-hero .eyebrow{justify-content:flex-start}.modern-home .portfolio-hero h1{font-size:clamp(54px,6.3vw,88px);max-width:800px}.modern-home .portfolio-hero-copy>p:not(.eyebrow){margin:30px 0;max-width:650px}.modern-home .portfolio-hero .button-row{justify-content:flex-start}}
 .media-services .flagship{color:#fff;background:#155b43}.media-services .flagship .service-number,.media-services .flagship h3,.media-services .flagship p,.media-services .flagship li{color:#fff}.media-services .flagship .button.lime{background:#b5e2c7;border-color:#b5e2c7;color:#123c2d}.media-services .flagship .button.lime:hover{background:#d1f0dc}.media-services .flagship:focus-within{outline:2px solid #247bc1;outline-offset:3px}
 @media(max-width:760px){.modern-home .portfolio-hero{background:linear-gradient(180deg,#eff7f2,#fff)}.modern-home .portfolio-hero:after{content:"";display:block;position:relative;z-index:0;width:88%;height:230px;margin:0 auto 28px;border-radius:120px 120px 14px 14px;background:url('assets/billy-studio-hero.webp') 82% 35%/cover;box-shadow:0 12px 28px #153e3224}.media-services .flagship{color:white}.media-services .flagship *{color:white}}
+
+
+/* Back2Life Designs — centered homepage hero */
+@media (min-width: 761px) {
+  .modern-home .portfolio-hero-copy {
+    width: 100%;
+    max-width: 1100px;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .modern-home .portfolio-hero .eyebrow,
+  .modern-home .portfolio-hero .button-row {
+    justify-content: center;
+  }
+
+  .modern-home .portfolio-hero h1 {
+    max-width: none;
+  }
+
+  .modern-home .portfolio-hero-copy > p:not(.eyebrow) {
+    margin: 30px auto;
+  }
+}
+
+
+/* Back2Life Designs — balanced service cards */
+
+.modern-home .media-services {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.modern-home .media-services article {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 32px;
+  border: 1px solid #bfd8c9;
+  border-radius: 18px;
+  background: #eaf4ed;
+  color: #183b31;
+}
+
+/* Card 2 — soft blue */
+.modern-home .media-services article:nth-child(2) {
+  background: #eef5fc;
+  border-color: #c5d9ed;
+}
+
+/* Card 3 — warm ivory */
+.modern-home .media-services article:nth-child(3) {
+  background: #f7f7f1;
+  border-color: #dedfd3;
+}
+
+/* Replace the original white text on card 1 */
+.modern-home .media-services .flagship,
+.modern-home .media-services .flagship * {
+  color: #183b31;
+}
+
+/* Distinct step labels */
+.modern-home .media-services article .service-number {
+  color: #155b43;
+  font-weight: 700;
+}
+
+.modern-home .media-services article:nth-child(2) .service-number {
+  color: #155f9b;
+}
+
+.modern-home .media-services article:nth-child(3) .service-number {
+  color: #59642b;
+}
+
+.modern-home .media-services article .service-note {
+  color: #405c53;
+}
+
+/* Keep the primary action prominent */
+.modern-home .media-services .flagship .button.lime {
+  background: #155b43;
+  border-color: #155b43;
+  color: #fff;
+}
+
+.modern-home .media-services .flagship .button.lime * {
+  color: #fff;
+}
+
+/* Align links near the bottom of each card */
+.modern-home .media-services article > a:last-child {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* Stack cards on narrower screens */
+@media (max-width: 1000px) {
+  .modern-home .media-services {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Back2Life Designs — centered work section heading */
+
+.modern-home #work .section-heading {
+  display: block;
+  text-align: center;
+}
+
+.modern-home #work .section-heading > div {
+  width: 100%;
+}
+
+.modern-home #work .section-heading h2 {
+  margin-inline: auto;
+}
+
+
+
+/* Back2Life Designs — work showcase refinements */
+
+/* Subtle divider beneath the section heading */
+.modern-home #work .section-heading {
+  border-bottom: 1px solid #b8d4c6;
+  padding-bottom: 30px;
+  margin-bottom: 36px;
+}
+
+/* Clean dark-green border around the preview */
+.modern-home #work .work-image {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+  border: 2px solid #183b31;
+  border-radius: 12px;
+}
+
+/* Image sits flush against the frame */
+.modern-home #work .work-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0;
+}
+
+
+/* Back2Life Designs — homepage template section cleanup */
+
+.modern-home .template-alternative {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.modern-home .mini-template {
+  display: block;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid #183b31;
+  border-radius: 12px;
+}
+
+.modern-home .mini-template img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Keep comfortable spacing on smaller screens */
+@media (max-width: 760px) {
+  .modern-home .template-alternative {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+
+/* Back2Life Designs — About the Designer redesign */
+
+.modern-home #studio {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f5f9fc 100%
+  );
+}
+
+.modern-home #studio .personal-studio {
+  align-items: center;
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.modern-home #studio .studio-story {
+  background: #f7fbf9;
+  border: 1px solid #d5e7df;
+  border-left: 5px solid #155b43;
+  border-radius: 18px;
+  padding: clamp(24px, 3.5vw, 48px);
+  box-shadow: 0 12px 32px rgba(21, 91, 67, 0.05);
+}
+
+.modern-home #studio .studio-story .large-copy {
+  font-size: clamp(22px, 2vw, 28px);
+  line-height: 1.45;
+  font-weight: 600;
+  color: #183b31;
+  margin: 0 0 22px;
+}
+
+.modern-home #studio .studio-story [data-founder-first] {
+  color: #176ba8;
+}
+
+.modern-home #studio .studio-story > p:not(.large-copy) {
+  color: #405d53;
+  line-height: 1.75;
+  font-size: 17px;
+  margin-bottom: 28px;
+}
+
+.modern-home #studio .studio-story .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+  color: #155b43;
+  border-bottom: 2px solid #247bc1;
+  padding-bottom: 8px;
+}
+
+/* Local service-area highlight */
+
+.modern-home #studio .future-note {
+  background: #eaf3fa;
+  border: 1px solid #cbdfea;
+  border-radius: 12px;
+  padding: 22px 24px;
+  margin-top: 32px;
+}
+
+.modern-home #studio .future-note b {
+  display: block;
+  color: #183b31;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.modern-home #studio .future-note p {
+  color: #36566c;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 760px) {
+  .modern-home #studio .studio-story {
+    padding: 24px;
+    border-radius: 14px;
+  }
+
+  .modern-home #studio .future-note {
+    padding: 18px;
+  }
+}
+
+
+/* Back2Life Designs — compact services layout */
+
+.modern-home #services {
+  padding-top: 40px;
+  padding-bottom: 56px;
+}
+
+.modern-home #services .media-services {
+  margin-top: 0;
+}
+
+/* Keep an accessible heading without visual clutter */
+.modern-home #services .services-only-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Comfortable spacing on phones */
+@media (max-width: 760px) {
+  .modern-home #services {
+    padding-top: 28px;
+    padding-bottom: 44px;
+  }
+}

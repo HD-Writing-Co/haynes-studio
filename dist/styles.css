@@ -32,3 +32,44 @@ body{background:#fff;color:var(--ink)}.header{background:#fff;border-color:#d7e3
 .template-art:has(.ridgeline-preview),.portfolio-home .template-art:has(.ridgeline-preview){padding:0;background:#080808;min-height:0}.ridgeline-preview{display:block;width:100%;height:auto;align-self:center}
 
 .brand-symbol{width:38px;height:38px;flex-shrink:0}
+
+
+/* Back2Life Designs — template specifications */
+
+.template-facts {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  width: 100%;
+  border-top: 1px solid #dbe5ee;
+}
+
+.template-facts li {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.8fr) minmax(0, 1.6fr);
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #dbe5ee;
+  align-items: start;
+}
+
+.template-facts strong {
+  color: #192f5c;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.template-facts span {
+  color: #36516a;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Mobile-friendly specifications */
+@media (max-width: 640px) {
+  .template-facts li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}
