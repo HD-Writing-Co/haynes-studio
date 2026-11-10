@@ -1,0 +1,15 @@
+{
+  "name": "Sable & Saffron | Restaurant Pro",
+  "niche": "Restaurants & Food",
+  "idealFor": "Fine dining, tasting rooms, bistros, chef-led restaurants, wine bars, and private dining venues",
+  "description": "An original asymmetric fine-dining WordPress block theme with an editorial menu ledger, chef story, private dining layouts, and reservation-ready callouts. Native layout needs no plugin; accepting bookings requires a separately installed and configured reservations plugin.",
+  "platform": "WordPress · Block Theme (6.6+)",
+  "tier": "premium",
+  "badge": "PREMIUM · PRELAUNCH",
+  "priceLabel": "Premium WordPress · Price TBD · Reservation plugin separate",
+  "preview": "sable-saffron-restaurant-pro-theme/preview.webp",
+  "imageAlt": "Sable and Saffron premium restaurant WordPress theme with dark editorial hero and luxury dining photography",
+  "demoPath": "index.html",
+  "detailsPath": "details.html",
+  "order": 22
+}
