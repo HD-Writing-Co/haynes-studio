@@ -1,0 +1,12 @@
+{
+  "name": "Table & Thyme",
+  "niche": "Restaurants & Food",
+  "idealFor": "Dine-in restaurants, cafés, bistros, and grills",
+  "description": "Warm dine-in restaurant design with included illustrative food photos, a sample menu, and four color palettes. No live reservations.",
+  "platform": "HTML · CSS · JavaScript",
+  "tier": "free",
+  "priceLabel": "Free starter · Live demo",
+  "preview": "../assets/template-previews/restaurant-food-starter.webp",
+  "demoPath": "index.html",
+  "order": 3
+}
