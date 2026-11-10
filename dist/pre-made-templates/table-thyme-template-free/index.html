@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" data-theme="terracotta">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e9">
+  <meta name="description" content="A sample single-page restaurant website template with a menu, story, hours, and location. Replace all demo information before publishing.">
+  <title>Table &amp; Thyme | Restaurant Starter Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="demo-notice" role="note">FREE RESTAURANT TEMPLATE <span aria-hidden="true">·</span> Sample restaurant, dishes and prices — replace before publishing</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Table and Thyme — back to top">
+        <svg class="brand-icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="22" fill="currentColor" opacity=".12"/><path d="M15 13v11c0 5 4 8 9 8s9-3 9-8V13M19 13v11M24 13v11M29 13v11M24 32v6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="brand-name">table <span>&amp;</span> thyme<span class="brand-period">.</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span>Menu</span><span class="menu-glyph" aria-hidden="true">☰</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#menu">Sample menu</a>
+        <a href="#story">Our story</a>
+        <a href="#visit">Hours &amp; location</a>
+        <a class="nav-cta" href="#visit">Plan a visit <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="line" aria-hidden="true"></span> A LITTLE TIME AROUND THE TABLE</p>
+          <h1 id="hero-title">A good meal.<br>Better <em>together.</em></h1>
+          <p class="hero-lede">A welcoming restaurant website starter, made for sharing your menu, telling your story, and helping guests find their way to your table.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="#menu">Explore the sample menu <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#visit">Hours &amp; location <span aria-hidden="true">↘</span></a>
+          </div>
+          <aside class="theme-switcher" aria-label="Try demo color schemes">
+            <p>Make it your own <span>— try a colorway</span></p>
+            <div class="theme-options" role="group" aria-label="Website color palettes">
+              <button type="button" class="theme-choice" data-select-theme="terracotta" aria-pressed="true"><span class="theme-dot terra" aria-hidden="true"></span><span>Terracotta</span></button>
+              <button type="button" class="theme-choice" data-select-theme="olive" aria-pressed="false"><span class="theme-dot olive" aria-hidden="true"></span><span>Olive</span></button>
+              <button type="button" class="theme-choice" data-select-theme="coastal" aria-pressed="false"><span class="theme-dot coastal" aria-hidden="true"></span><span>Coastal</span></button>
+              <button type="button" class="theme-choice" data-select-theme="midnight" aria-pressed="false"><span class="theme-dot midnight" aria-hidden="true"></span><span>Midnight</span></button>
+            </div>
+          </aside>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo-wrap"><img src="assets/restaurant-interior.webp" alt="Warm dining room with set tables, pendant lights, plants and a fireplace" width="762" height="507" fetchpriority="high"></div>
+          <div class="visual-caption"><span class="caption-flower" aria-hidden="true">✳</span><span>Good food makes room<br>for good company.</span></div>
+          <div class="food-inset"><img src="assets/signature-dish.webp" alt="Illustrative plated steak with potatoes, tomatoes and green vegetables" width="765" height="507" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="welcome-bar" aria-label="Template highlights">
+      <div class="container welcome-inner"><span>MADE FOR DINE-IN RESTAURANTS</span><span aria-hidden="true" class="welcome-star">✳</span><span>SIMPLE MENU &amp; HOURS</span><span aria-hidden="true" class="welcome-star">✳</span><span>EASY TO PERSONALIZE</span></div>
+    </section>
+
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-heading menu-heading">
+          <div><p class="eyebrow">AT THE TABLE / 01</p><h2 id="menu-title">Something for <em>every appetite.</em></h2></div>
+          <p>Give visitors a taste of what you serve. Swap in your own dishes, descriptions, and current prices.</p>
+        </div>
+        <div class="menu-layout">
+          <figure class="menu-photo"><img src="assets/signature-dish.webp" alt="Sample plated grilled steak with seasonal sides" width="765" height="507" loading="lazy"><figcaption>Replace with a photo from your own kitchen.</figcaption></figure>
+          <div class="menu-board">
+            <p class="board-kicker">SAMPLE MENU <span aria-hidden="true">✳</span> FOR LAYOUT PREVIEW ONLY</p>
+            <div class="dish"><div><h3>Herb Butter Steak</h3><p>Grilled steak, garden vegetables, rosemary potatoes</p></div><span class="dish-price">$28</span></div>
+            <div class="dish"><div><h3>Garden Pasta</h3><p>Pasta with seasonal vegetables, herbs, lemon and parmesan</p></div><span class="dish-price">$19</span></div>
+            <div class="dish"><div><h3>Sunday Roast</h3><p>Slow-roasted entrée with a comforting side and pan jus</p></div><span class="dish-price">$25</span></div>
+            <div class="dish"><div><h3>Citrus Cream Cake</h3><p>Soft cake with citrus notes and whipped cream</p></div><span class="dish-price">$11</span></div>
+            <p class="menu-disclaimer">Items, ingredients, and prices are fictional demo content. Replace before publishing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story-section" id="story" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-photo"><img src="assets/chef-at-work.webp" alt="Illustrative chef carefully plating a dish in a kitchen" width="762" height="508" loading="lazy"></div>
+        <div class="story-copy"><p class="eyebrow">A PLACE FOR YOUR STORY / 02</p><h2 id="story-title">The heart behind <em>the table.</em></h2><p>This is where your restaurant's story goes. Share the food you love making, the people behind it, and the atmosphere that makes your dining room your own.</p><p>Keep it short, personal, and true to your business. A warm introduction is often all a guest needs to feel welcome.</p><a class="text-link" href="#visit">See the visit details <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section atmosphere-section" aria-labelledby="atmosphere-title">
+      <div class="container atmosphere-grid">
+        <div class="atmosphere-copy"><p class="eyebrow">A REASON TO STAY AWHILE / 03</p><h2 id="atmosphere-title">Set the scene.</h2><p>Use this space for a dining-room photo, a memorable detail, or a short note about what guests can expect.</p><span class="little-star" aria-hidden="true">✳</span></div>
+        <img src="assets/table-setting.webp" alt="Candlelit dining table with wine glasses, flowers and place settings" width="765" height="508" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-shell">
+        <div class="visit-intro"><p class="eyebrow">PLAN YOUR VISIT / 04</p><h2 id="visit-title">There's a place <em>for you.</em></h2><p>Give guests the details they need before stopping by. Replace every bracketed field with verified information from your restaurant.</p></div>
+        <div class="visit-details">
+          <div class="info-card"><span class="info-icon" aria-hidden="true">◷</span><h3>Opening hours</h3><dl class="hours-list"><div><dt>Monday – Thursday</dt><dd>[Add hours]</dd></div><div><dt>Friday – Saturday</dt><dd>[Add hours]</dd></div><div><dt>Sunday</dt><dd>[Add hours]</dd></div></dl></div>
+          <div class="info-card"><span class="info-icon" aria-hidden="true">⌖</span><h3>Find us</h3><p>[Restaurant street address]<br>[City, State ZIP]</p><p class="contact-placeholder">Phone: [Restaurant phone]<br>Email: [Restaurant email]</p><div class="booking-note">Reservations or online ordering? Add your verified booking link here.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section"><div class="container closing-inner"><p class="eyebrow">THE GOOD PART IS GETTING TOGETHER</p><h2>Save a seat for <em>something good.</em></h2><p>Ready to turn this sample website into your own? Replace the brand, menu, photos, hours, and contact details.</p><a class="button button-inverted" href="#top">Back to the top <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="footer-brand" href="#top">table <span>&amp;</span> thyme.</a><p>A single-page restaurant template demo.<br>Not an operating restaurant or reservation service.</p></div><div class="footer-links"><a href="#menu">Menu</a><a href="#story">Story</a><a href="#visit">Hours &amp; location</a></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> Table &amp; Thyme — sample brand</span><span>Free Restaurant Starter · Replace demo content before launch</span></div></footer>
+</body>
+</html>
