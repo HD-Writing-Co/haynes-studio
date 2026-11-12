@@ -1,0 +1,27 @@
+{
+  "ridgeline": {
+    "url": "https://payhip.com/b/GdYCe",
+    "priceLabel": "$49 · one-time purchase",
+    "buttonText": "Buy for $49"
+  },
+  "ironwood-construction-pro-theme": {
+    "url": "https://payhip.com/b/JTE1I",
+    "priceLabel": "$129 · one-time purchase",
+    "buttonText": "Buy for $129"
+  },
+  "ironwood-construction-pro-theme-storefront-preview": {
+    "url": "https://payhip.com/b/JTE1I",
+    "priceLabel": "$129 · one-time purchase",
+    "buttonText": "Buy for $129"
+  },
+  "veloura-beauty-pro-theme": {
+    "url": "https://payhip.com/b/xCiDY",
+    "priceLabel": "$129 · one-time purchase",
+    "buttonText": "Buy for $129"
+  },
+  "sable-saffron-restaurant-pro-theme": {
+    "url": "https://payhip.com/b/gSWhw",
+    "priceLabel": "$149 · one-time purchase",
+    "buttonText": "Buy for $149"
+  }
+}
