@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Midnight Parts Dept. — a fictional chop-shop parody storefront for imaginary automotive treasures.">
+  <title>Midnight Parts Dept. — Totally Legit Parts Counter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ticker"><span>⚠ SATIRE STORE • FICTIONAL INVENTORY • NO REAL PARTS SOLD</span><span>OPEN LATE / CLOSES WHEN THE STREETLIGHTS COME ON</span><span>⚠ SATIRE STORE • FICTIONAL INVENTORY • NO REAL PARTS SOLD</span></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Midnight Parts Dept home"><span class="brand-mark">MP<span>✳</span></span><span class="brand-name">MIDNIGHT<br>PARTS DEPT.<small>THE TOTALLY LEGIT COUNTER</small></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="#latest">Latest arrivals</a><a href="#departments">Departments</a><a href="#about">Our story</a></nav>
+    <button class="cart-button" id="cartButton" aria-label="Open demo cart"><span class="cart-icon">▱</span> <span>Bag</span><b id="cartCount">0</b></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <img class="hero-image" src="assets/garage-hero.png" alt="A dramatic late-night garage with a set of polished coupe wheels on a workbench">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> EST. LAST TUESDAY • SOMEWHERE OFF THE BYPASS</p>
+        <h1>PARTS WITH<br><em>QUESTIONABLE</em><br>PROVENANCE.</h1>
+        <p class="hero-copy">A suspiciously well-curated collection of automotive bits, bolts, and “found” objects. Every listing is made up. Every story is worse.</p>
+        <a class="button button-red" href="#latest">Browse the evidence <span>↘</span></a>
+      </div>
+      <div class="hero-stamp"><span>100%</span><small>FICTIONAL<br>INVENTORY</small></div>
+      <div class="hero-caption"><span>PHOTO 01 / BACK ROOM LIGHTING</span><span>NO QUESTIONS, PLEASE*</span></div>
+    </section>
+
+    <div class="proof-strip"><span>✳ THE NIGHT SHIFT'S FAVORITE</span><span>HAND-WRITTEN RECEIPTS (IN CRAYON)</span><span>NO REFUNDS ON IMAGINARY GOODS</span><span>✳ THE NIGHT SHIFT'S FAVORITE</span></div>
+
+    <section class="shop-section" id="latest">
+      <div class="section-heading"><div><p class="eyebrow red-eyebrow">JUST ROLLED IN / MAYBE</p><h2>MOST RECENT<span class="heading-dot">.</span></h2></div><div class="section-note">Fresh from the <s>loading dock</s><br>completely fictional imagination.</div></div>
+      <div class="shop-toolbar"><div class="filters" role="group" aria-label="Filter products"><button class="filter active" data-filter="all">All finds <span>08</span></button><button class="filter" data-filter="cd7">’94 Accord CD7 <span>04</span></button><button class="filter" data-filter="garage">Garage miscellany <span>04</span></button></div><label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search the inventory" aria-label="Search inventory"><kbd>/</kbd></label></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="cd7" data-search="accord cd7 wheel set rims five spoke alloy coupe">
+          <a class="product-art art-wheel" href="#product-1" aria-label="View The Four-Pack of Definitely Not Missing Wheels"><span class="art-tag">HOT FIND</span><svg viewBox="0 0 240 180" role="img" aria-label="Illustration of a silver five-spoke wheel"><defs><radialGradient id="metal"><stop offset="0" stop-color="#1b1b1b"/><stop offset=".18" stop-color="#9d9b96"/><stop offset=".4" stop-color="#dedbd1"/><stop offset=".58" stop-color="#64625d"/><stop offset=".78" stop-color="#d9d6cc"/><stop offset="1" stop-color="#3c3b38"/></radialGradient></defs><circle cx="120" cy="91" r="67" fill="#171716" stroke="#746f67" stroke-width="5"/><circle cx="120" cy="91" r="55" fill="url(#metal)"/><g fill="#292827" stroke="#b8b4aa" stroke-width="3"><path d="M114 45h12l9 38-15 10-15-10z"/><path d="M114 45h12l9 38-15 10-15-10z" transform="rotate(72 120 91)"/><path d="M114 45h12l9 38-15 10-15-10z" transform="rotate(144 120 91)"/><path d="M114 45h12l9 38-15 10-15-10z" transform="rotate(216 120 91)"/><path d="M114 45h12l9 38-15 10-15-10z" transform="rotate(288 120 91)"/></g><circle cx="120" cy="91" r="14" fill="#343330" stroke="#d0ccc2" stroke-width="4"/><circle cx="120" cy="91" r="5" fill="#aaa69c"/></svg><span class="art-caption">CD7 / 15-INCH / ALLEGEDLY A SET</span></a>
+          <div class="product-meta"><span class="product-type">’94 ACCORD COUPE • CD7</span><span class="product-stock">● 1 “set”</span></div><h3>The Four-Pack of Definitely Not Missing Wheels</h3><div class="product-bottom"><span class="price">$404<span>.00</span></span><button class="add-button" data-add="The Four-Pack of Definitely Not Missing Wheels" aria-label="Add wheels to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="cd7" data-search="accord cd7 center console switchgear mysterious buttons">
+          <a class="product-art art-console" href="#product-2" aria-label="View the Center Console Button Collection"><span class="art-tag tag-cream">ODDLY SPECIFIC</span><svg viewBox="0 0 240 180" role="img" aria-label="Illustration of a vintage car center console"><path d="M50 24h140l18 128H32z" fill="#262522" stroke="#7f796c" stroke-width="3"/><path d="M67 38h106l7 32H60z" fill="#111" stroke="#b1a99a" stroke-width="2"/><rect x="84" y="46" width="72" height="14" rx="3" fill="#54534d"/><path d="M54 84h132l8 52H46z" fill="#3c3a35" stroke="#8a8478" stroke-width="2"/><g fill="#cf3d2e" stroke="#d5c7b3" stroke-width="2"><circle cx="79" cy="101" r="9"/><circle cx="120" cy="101" r="9"/><circle cx="161" cy="101" r="9"/></g><g fill="#a7a08f"><rect x="68" y="119" width="24" height="5" rx="2"/><rect x="108" y="119" width="24" height="5" rx="2"/><rect x="148" y="119" width="24" height="5" rx="2"/></g></svg><span class="art-caption">LOTS OF BUTTONS / FEW ANSWERS</span></a>
+          <div class="product-meta"><span class="product-type">’94 ACCORD COUPE • CD7</span><span class="product-stock">● 3 buttons</span></div><h3>Center Console Button Collection</h3><div class="product-bottom"><span class="price">$38<span>.50</span></span><button class="add-button" data-add="Center Console Button Collection" aria-label="Add console buttons to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="cd7" data-search="accord cd7 coupe front lip aerodynamic bumper splitter">
+          <a class="product-art art-lip" href="#product-3" aria-label="View the Front Lip with a Very Convincing Alibi"><span class="art-tag">NEW-ish</span><svg viewBox="0 0 240 180" role="img" aria-label="Illustration of a black coupe front lip"><path d="M40 104q10-34 36-40l17-22h53l18 22q28 8 37 40l-10 16H49z" fill="#77766f" stroke="#c7c2b7" stroke-width="3"/><path d="M58 104q10-25 27-31l13-17h56l15 18q17 5 24 30z" fill="#252522"/><path d="M48 112q72 16 145 0l7 13q-75 21-158 0z" fill="#171716" stroke="#b43a2c" stroke-width="3"/><path d="M94 75h54" stroke="#d4d0c5" stroke-width="3"/><circle cx="72" cy="108" r="9" fill="#ded7c4"/><circle cx="169" cy="108" r="9" fill="#ded7c4"/></svg><span class="art-caption">AERODYNAMIC / ALLEGEDLY</span></a>
+          <div class="product-meta"><span class="product-type">’94 ACCORD COUPE • CD7</span><span class="product-stock">● 1 lip</span></div><h3>Front Lip with a Very Convincing Alibi</h3><div class="product-bottom"><span class="price">$89<span>.00</span></span><button class="add-button" data-add="Front Lip with a Very Convincing Alibi" aria-label="Add front lip to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="cd7" data-search="accord cd7 rear tail lights taillights red amber coupe">
+          <a class="product-art art-lamps" href="#product-4" aria-label="View the Pair of Rear Lamps, No Questions"><span class="art-tag tag-cream">PAIR-ISH</span><svg viewBox="0 0 240 180" role="img" aria-label="Illustration of red and amber coupe tail lights"><path d="M30 53q50-24 180 0v71q-91 26-180 0z" fill="#2d2b27" stroke="#a8a091" stroke-width="4"/><path d="M44 67q34-14 71-9v47q-34 15-71 5z" fill="#aa342a" stroke="#ed8270" stroke-width="3"/><path d="M125 58q36-4 71 9v43q-34 9-71-5z" fill="#d08337" stroke="#f0bf77" stroke-width="3"/><path d="M119 59v52" stroke="#777267" stroke-width="3"/><path d="M53 77q22-6 50-5M135 68q23 1 49 9" stroke="#efb9a7" stroke-width="3" opacity=".7"/></svg><span class="art-caption">LEFT + RIGHT / PROBABLY</span></a>
+          <div class="product-meta"><span class="product-type">’94 ACCORD COUPE • CD7</span><span class="product-stock">● 2 lamps</span></div><h3>Pair of Rear Lamps, No Questions</h3><div class="product-bottom"><span class="price">$72<span>.00</span></span><button class="add-button" data-add="Pair of Rear Lamps, No Questions" aria-label="Add rear lamps to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="garage" data-search="mystery fasteners bolts jar assorted hardware">
+          <a class="product-art art-bolts" href="#product-5" aria-label="View the Mystery Fastener Jar"><span class="art-tag">MIXED LOT</span><div class="jar"><span>?</span><i>⚙</i><b>¼</b></div><span class="art-caption">MYSTERY METAL / MASON JAR</span></a>
+          <div class="product-meta"><span class="product-type">GARAGE MISCELLANY</span><span class="product-stock">● 1 jar</span></div><h3>Mystery Fastener Jar (Shake Before Use)</h3><div class="product-bottom"><span class="price">$12<span>.00</span></span><button class="add-button" data-add="Mystery Fastener Jar" aria-label="Add fastener jar to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="garage" data-search="garage air freshener new car smell midnight">
+          <a class="product-art art-freshener" href="#product-6" aria-label="View the New Car Smell, Used Car Energy air freshener"><span class="art-tag tag-cream">SCENT PROFILE: VAGUE</span><div class="freshener"><div>NEW<br>CAR<br><small>SMELL</small></div><span>✳</span></div><span class="art-caption">NEW CAR SMELL / USED CAR ENERGY</span></a>
+          <div class="product-meta"><span class="product-type">GARAGE MISCELLANY</span><span class="product-stock">● 5 scents</span></div><h3>“New Car Smell, Used Car Energy”</h3><div class="product-bottom"><span class="price">$6<span>.66</span></span><button class="add-button" data-add="New Car Smell Air Freshener" aria-label="Add air freshener to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="garage" data-search="mystery switch electrical switch no label">
+          <a class="product-art art-switch" href="#product-7" aria-label="View the Unlabeled Switch"><span class="art-tag">DO NOT GUESS</span><div class="switchbox"><div class="switch-toggle"></div><div class="switch-label">??</div></div><span class="art-caption">FUNCTION: CLASSIFIED (BY US)</span></a>
+          <div class="product-meta"><span class="product-type">GARAGE MISCELLANY</span><span class="product-stock">● 1 switch</span></div><h3>Unlabeled Switch (Could Be Anything)</h3><div class="product-bottom"><span class="price">$9<span>.99</span></span><button class="add-button" data-add="Unlabeled Switch" aria-label="Add unlabeled switch to demo bag">+</button></div>
+        </article>
+        <article class="product-card" data-category="garage" data-search="receipt thermal paper unsigned handwritten mystery provenance">
+          <a class="product-art art-receipt" href="#product-8" aria-label="View the Handwritten Receipt of Unclear Origin"><span class="art-tag tag-cream">ARCHIVAL GRADE</span><div class="receipt"><small>MIDNIGHT PARTS DEPT.</small><b>ITEM: ???</b><b>PRICE: LET'S SAY 20</b><span>THANK YOU<br>COME AGAIN(?)</span><i>✳</i></div><span class="art-caption">INK: MOSTLY LEGIBLE</span></a>
+          <div class="product-meta"><span class="product-type">GARAGE MISCELLANY</span><span class="product-stock">● 1 receipt</span></div><h3>Handwritten Receipt of Unclear Origin</h3><div class="product-bottom"><span class="price">$2<span>.00</span></span><button class="add-button" data-add="Handwritten Receipt of Unclear Origin" aria-label="Add receipt to demo bag">+</button></div>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState">Nothing here. Which is honestly pretty typical. <button id="resetFilters">Show me everything</button></div>
+    </section>
+
+    <section class="departments" id="departments"><div class="dept-copy"><p class="eyebrow">THE DEPARTMENTS</p><h2>ORGANIZED<br>LIKE A GLOVEBOX.</h2><p>Our “inventory system” is a cardboard box, two markers, and a deeply optimistic spreadsheet.</p><a href="#latest" class="text-link">Explore questionable goods <span>↗</span></a></div><div class="dept-list"><a href="#latest"><span class="dept-number">01</span><span>Honda Accord CD7</span><span class="dept-count">04 ITEMS</span><b>↗</b></a><a href="#latest"><span class="dept-number">02</span><span>Garage Miscellany</span><span class="dept-count">04 ITEMS</span><b>↗</b></a><a href="#about"><span class="dept-number">03</span><span>Stories That Don't Add Up</span><span class="dept-count">∞</span><b>↗</b></a><div class="dept-stamp">SORTED BY<br>VIBES<br>ONLY</div></div></section>
+
+    <section class="about" id="about"><div class="about-image"><img src="assets/garage-hero.png" alt="Warm light spilling through a fictional back-room garage"><span class="image-label">BACK ROOM / ARTIST'S IMPRESSION</span></div><div class="about-copy"><p class="eyebrow red-eyebrow">A NOTE FROM MANAGEMENT</p><h2>WE HAVE<br>NO IDEA WHERE<br>THIS CAME FROM.</h2><p>Midnight Parts Dept. is a parody storefront. The products, prices, stock counts, and suspiciously convenient backstory are all fictional. This site does not sell automotive parts, facilitate theft, or know anyone named “Big Tony.”</p><a class="button button-dark" href="#latest">Back to browsing <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">MP<span>✳</span></span><span class="brand-name">MIDNIGHT<br>PARTS DEPT.<small>THE TOTALLY LEGIT COUNTER</small></span></a><p>© 2026 Midnight Parts Dept. A fictional satire project.<br>All inventory and transactions are pretend. Please secure your wheels responsibly.</p><span class="footer-signoff">MAKE GOOD CHOICES<span>™*</span></span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow red-eyebrow">PAPER BAG OF ALLEGATIONS</p><h2>YOUR DEMO BAG</h2></div><button id="closeCart" aria-label="Close cart">×</button></div><div id="cartItems" class="cart-items"><div class="cart-empty">Your bag is as empty as our legal department's calendar.</div></div><div class="drawer-footer"><p>Subtotal <strong id="cartTotal">$0.00</strong></p><button class="button button-red" id="checkoutButton">Pretend to check out <span>↗</span></button><small>Demo only. No checkout or payment is available.</small></div></div><div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <script src="script.js"></script>
+</body>
+</html>
