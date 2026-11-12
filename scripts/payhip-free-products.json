@@ -1,0 +1,26 @@
+{
+  "home-services-starter": {
+    "name": "Home Services Starter",
+    "url": "https://payhip.com/b/dl15m"
+  },
+  "beauty-personal-care-starter": {
+    "name": "Beauty & Personal Care Starter",
+    "url": "https://payhip.com/b/VHZya"
+  },
+  "beauty-personal-care-starter-free": {
+    "name": "Beauty & Personal Care Starter",
+    "url": "https://payhip.com/b/VHZya"
+  },
+  "restaurant-food-starter": {
+    "name": "Table & Thyme",
+    "url": "https://payhip.com/b/Jx6ZG"
+  },
+  "table-thyme-template-free": {
+    "name": "Table & Thyme",
+    "url": "https://payhip.com/b/Jx6ZG"
+  },
+  "northline-auto-template": {
+    "name": "Northline Auto",
+    "url": "https://payhip.com/b/eG2EI"
+  }
+}
