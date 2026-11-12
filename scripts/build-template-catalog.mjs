@@ -105,3 +105,6 @@ html = html.replace(new RegExp(`${selectStart}[\\s\\S]*?${selectEnd}`), `${selec
 await writeFile(storefrontPath, html, 'utf8');
 console.log(`✓ Catalog updated: ${items.length} templates (${free} free, ${premium} other).`);
 for (const item of items) console.log(`  • ${item.name} — ${item.tier} — ${item.slug}/index.html`);
+
+// B2L PAYHIP ALL-PAGES POSTBUILD
+await import('./apply-payhip-everywhere.mjs');

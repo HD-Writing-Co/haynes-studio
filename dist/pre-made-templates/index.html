@@ -120,7 +120,16 @@ body.storefront { background: #fff; color: var(--store-ink); }
 @media(max-width:700px){.storefront .store-listings{grid-template-columns:1fr}.storefront .store-listing-featured{grid-column:auto}.storefront .store-listing-visual{aspect-ratio:1.55}.storefront .store-filter-select{flex:1 1 140px}.storefront .store-hero{padding-block:44px}.storefront .store-listing-content{padding:23px}}
 @media(prefers-reduced-motion:reduce){.storefront .store-listing-visual img{transition:none}.storefront .store-listing-visual:hover img{transform:none}}
 </style>
-<script defer="True" src="storefront.js"></script></head>
+<script defer="True" src="storefront.js"></script><style id="b2l-payhip-style">
+.b2l-checkout-ribbon{box-sizing:border-box;position:relative;z-index:999;background:#12372f;color:#fff!important;display:flex;align-items:center;justify-content:center;gap:12px 24px;padding:12px 20px;font:600 14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;text-align:center;flex-wrap:wrap;border-bottom:2px solid #c59b5c}
+.b2l-checkout-ribbon *{box-sizing:border-box}.b2l-checkout-ribbon strong{color:#fff;font-weight:800}.b2l-checkout-ribbon .b2l-price{color:#fff;font-size:18px;font-weight:800}
+.b2l-checkout-ribbon .b2l-buy{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 18px;background:#f4e8d2;border:2px solid #f4e8d2;border-radius:999px;color:#12372f!important;font-weight:800;text-decoration:none;white-space:normal}
+.b2l-checkout-ribbon .b2l-buy:hover{background:#fff;border-color:#fff;text-decoration:none}.b2l-checkout-ribbon a:focus-visible{outline:3px solid #73cfff;outline-offset:3px}
+body.storefront .store-listing-actions .store-link-buy,body.storefront .store-listing-actions .store-link-free{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;min-height:44px;background:#145d46;color:#fff!important;font-weight:800;text-decoration:none;border-radius:100px;border:2px solid #145d46}
+body.storefront .store-listing-actions .store-link-buy:hover,body.storefront .store-listing-actions .store-link-free:hover{background:#104534;border-color:#104534}
+body.storefront .store-listing-actions .store-link-buy:focus-visible,body.storefront .store-listing-actions .store-link-free:focus-visible{outline:3px solid #2688d1;outline-offset:3px}
+@media(max-width:600px){.b2l-checkout-ribbon{gap:8px 14px;padding:12px}.b2l-checkout-ribbon .b2l-brand{width:100%}}
+</style></head>
 <body class="storefront" id="top">
 <a class="skip" href="#main">
    Skip to content
@@ -191,12 +200,12 @@ body.storefront { background: #fff; color: var(--store-ink); }
 </div>
 </div>
 <aside aria-label="Template collection at a glance" class="store-hero-aside">
-<span aria-hidden="true" class="store-hero-count" id="store-hero-number">05</span>
+<span aria-hidden="true" class="store-hero-count" id="store-hero-number">08</span>
 <span aria-hidden="true" class="store-mini-line">
 </span>
 <div>
-<h2 id="store-hero-summary">5 website designs to explore.</h2>
-<p id="store-hero-details">4 free starters and 1 premium preview. Explore live demos before choosing a design.</p>
+<h2 id="store-hero-summary">8 website designs to explore.</h2>
+<p id="store-hero-details">4 free starters and 4 premium templates. Explore live demos before choosing a design.</p>
 </div>
 </aside>
 </div>
@@ -212,7 +221,7 @@ body.storefront { background: #fff; color: var(--store-ink); }
         Explore the collection.
        </h2>
 </div>
-<p class="store-catalog-count" id="store-total-count">Showing 5 templates</p>
+<p class="store-catalog-count" id="store-total-count">Showing 8 templates</p>
 </div>
 <div aria-label="Filter website templates" class="store-filterbar">
 <div class="store-search-wrap"><label for="store-search">Search templates</label><input autocomplete="off" id="store-search" placeholder="Search by name or niche" type="search"/></div>
@@ -220,21 +229,22 @@ body.storefront { background: #fff; color: var(--store-ink); }
 <option value="all">All niches</option>
 <option value="Automotive">Automotive</option>
 <option value="Beauty &amp; Personal Care">Beauty &amp; Personal Care</option>
+<option value="Construction &amp; Home Services">Construction &amp; Home Services</option>
 <option value="Home Services &amp; Contractors">Home Services &amp; Contractors</option>
 <option value="Restaurants &amp; Food">Restaurants &amp; Food</option>
 <!-- AUTO-CATEGORIES:END --></select></div>
 <div aria-label="Template type" class="store-tier-filter" role="group"><button aria-pressed="true" data-tier-filter="all" type="button">All</button><button aria-pressed="false" data-tier-filter="free" type="button">Free</button><button aria-pressed="false" data-tier-filter="preview" type="button">Paid / previews</button></div>
 </div>
 <p aria-live="polite" class="store-filter-results" id="store-filter-results"></p><div aria-label="Available templates" class="store-listings" id="store-listings"><!-- AUTO-CATALOG:START -->
-<article class="store-listing store-listing-featured" data-tier="preview" data-niche="Home Services &amp; Contractors" data-search="ridgeline home services &amp; contractors a polished roofing website concept with a project gallery, faq, interactive sections, and an inquiry-form layout that requires setup. roofers, exterior contractors, and local home-service businesses">
+<article class="store-listing store-listing-featured" data-tier="premium" data-niche="Home Services &amp; Contractors" data-search="ridgeline home services &amp; contractors a polished roofing website concept with a project gallery, faq, interactive sections, and an inquiry-form layout that requires setup. roofers, exterior contractors, and local home-service businesses">
   <a class="store-listing-visual" href="ridgeline/demo/index.html" aria-label="Preview Ridgeline"><img src="../assets/ridgeline-preview.svg" alt="Ridgeline roofing website concept with a dark navigation bar and house photography" loading="lazy" width="1092" height="656"><span class="store-listing-badge">PREMIUM PREVIEW</span></a>
   <div class="store-listing-content">
     <p class="store-listing-kicker">Home Services &amp; Contractors</p>
     <h3>Ridgeline</h3>
     <p class="store-listing-desc">A polished roofing website concept with a project gallery, FAQ, interactive sections, and an inquiry-form layout that requires setup.</p>
     <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Roofers, exterior contractors, and local home-service businesses</dd></div><div><dt>Built with</dt><dd>HTML · CSS · JavaScript</dd></div></dl>
-    <p class="store-listing-price">Premium · Pricing announced at launch</p>
-    <div class="store-listing-actions"><a class="store-link-primary" href="ridgeline/demo/index.html">View live demo <span aria-hidden="true">↗</span></a><a href="ridgeline/index.html" class="store-link-secondary">Details &amp; specifications <span aria-hidden="true">↗</span></a></div>
+    <p class="store-listing-price">$49 · one-time purchase</p>
+    <div class="store-listing-actions"><a class="store-link-buy" href="https://payhip.com/b/GdYCe" target="_blank" rel="noopener noreferrer" aria-label="Buy for $49 — Ridgeline Roofing on Payhip">Buy for $49 ↗</a><a class="store-link-primary" href="ridgeline/demo/index.html">View live demo <span aria-hidden="true">↗</span></a><a href="ridgeline/index.html" class="store-link-secondary">Details &amp; specifications <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
 <article class="store-listing" data-tier="free" data-niche="Home Services &amp; Contractors" data-search="home services starter home services &amp; contractors a crisp, simple one-page design with service cards, an about section, and contact placeholders. four switchable color palettes. handyman businesses and general contractors">
@@ -244,8 +254,8 @@ body.storefront { background: #fff; color: var(--store-ink); }
     <h3>Home Services Starter</h3>
     <p class="store-listing-desc">A crisp, simple one-page design with service cards, an About section, and contact placeholders. Four switchable color palettes.</p>
     <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Handyman businesses and general contractors</dd></div><div><dt>Built with</dt><dd>HTML · CSS · JavaScript</dd></div></dl>
-    <p class="store-listing-price">Free starter · Live demo</p>
-    <div class="store-listing-actions"><a class="store-link-primary" href="home-services-starter/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
+    <p class="store-listing-price">FREE · Instant download via Payhip</p>
+    <div class="store-listing-actions"><a class="store-link-free" href="https://payhip.com/b/dl15m" target="_blank" rel="noopener noreferrer" aria-label="Get Free Template — Home Services Starter on Payhip">Get Free Template ↗</a><a class="store-link-primary" href="home-services-starter/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
 <article class="store-listing" data-tier="free" data-niche="Beauty &amp; Personal Care" data-search="beauty &amp; personal care starter beauty &amp; personal care a calm, editorial one-page design with service cards, studio information, and four beautiful colorways. salons, nail studios, spas, and independent professionals">
@@ -255,8 +265,8 @@ body.storefront { background: #fff; color: var(--store-ink); }
     <h3>Beauty &amp; Personal Care Starter</h3>
     <p class="store-listing-desc">A calm, editorial one-page design with service cards, studio information, and four beautiful colorways.</p>
     <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Salons, nail studios, spas, and independent professionals</dd></div><div><dt>Built with</dt><dd>HTML · CSS · JavaScript</dd></div></dl>
-    <p class="store-listing-price">Free starter · Live demo</p>
-    <div class="store-listing-actions"><a class="store-link-primary" href="beauty-personal-care-starter-free/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
+    <p class="store-listing-price">FREE · Instant download via Payhip</p>
+    <div class="store-listing-actions"><a class="store-link-free" href="https://payhip.com/b/VHZya" target="_blank" rel="noopener noreferrer" aria-label="Get Free Template — Beauty &amp; Personal Care Starter on Payhip">Get Free Template ↗</a><a class="store-link-primary" href="beauty-personal-care-starter-free/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
 <article class="store-listing" data-tier="free" data-niche="Restaurants &amp; Food" data-search="table &amp; thyme restaurants &amp; food warm dine-in restaurant design with included illustrative food photos, a sample menu, and four color palettes. no live reservations. dine-in restaurants, cafés, bistros, and grills">
@@ -266,8 +276,8 @@ body.storefront { background: #fff; color: var(--store-ink); }
     <h3>Table &amp; Thyme</h3>
     <p class="store-listing-desc">Warm dine-in restaurant design with included illustrative food photos, a sample menu, and four color palettes. No live reservations.</p>
     <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Dine-in restaurants, cafés, bistros, and grills</dd></div><div><dt>Built with</dt><dd>HTML · CSS · JavaScript</dd></div></dl>
-    <p class="store-listing-price">Free starter · Live demo</p>
-    <div class="store-listing-actions"><a class="store-link-primary" href="table-thyme-template-free/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
+    <p class="store-listing-price">FREE · Instant download via Payhip</p>
+    <div class="store-listing-actions"><a class="store-link-free" href="https://payhip.com/b/Jx6ZG" target="_blank" rel="noopener noreferrer" aria-label="Get Free Template — Table &amp; Thyme on Payhip">Get Free Template ↗</a><a class="store-link-primary" href="table-thyme-template-free/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
 <article class="store-listing" data-tier="free" data-niche="Automotive" data-search="northline auto automotive a bold automotive starter with locally bundled vehicle imagery, service cards, contact placeholders, and four color schemes. independent auto repair, tire, and maintenance shops">
@@ -277,8 +287,41 @@ body.storefront { background: #fff; color: var(--store-ink); }
     <h3>Northline Auto</h3>
     <p class="store-listing-desc">A bold automotive starter with locally bundled vehicle imagery, service cards, contact placeholders, and four color schemes.</p>
     <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Independent auto repair, tire, and maintenance shops</dd></div><div><dt>Built with</dt><dd>HTML · CSS · JavaScript</dd></div></dl>
-    <p class="store-listing-price">Free starter · Live demo</p>
-    <div class="store-listing-actions"><a class="store-link-primary" href="northline-auto-template/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
+    <p class="store-listing-price">FREE · Instant download via Payhip</p>
+    <div class="store-listing-actions"><a class="store-link-free" href="https://payhip.com/b/eG2EI" target="_blank" rel="noopener noreferrer" aria-label="Get Free Template — Northline Auto on Payhip">Get Free Template ↗</a><a class="store-link-primary" href="northline-auto-template/index.html">View live demo <span aria-hidden="true">↗</span></a></div>
+  </div>
+</article>
+<article class="store-listing" data-tier="premium" data-niche="Beauty &amp; Personal Care" data-search="veloura beauty pro beauty &amp; personal care an elegant premium wordpress theme concept with salon services, editorial imagery, faqs, and booking-ready section. plugins for forms or bookings must be installed separately. luxury salons, spas, estheticians, skincare studios and beauty boutiques">
+  <a class="store-listing-visual" href="veloura-beauty-pro-theme/index.html" aria-label="Preview Veloura Beauty Pro"><img src="veloura-beauty-pro-theme/preview.webp" alt="Veloura Beauty Pro WordPress design preview featuring an editorial salon homepage" loading="lazy" width="1092" height="656"><span class="store-listing-badge">PREMIUM · PRELAUNCH</span></a>
+  <div class="store-listing-content">
+    <p class="store-listing-kicker">Beauty &amp; Personal Care</p>
+    <h3>Veloura Beauty Pro</h3>
+    <p class="store-listing-desc">An elegant premium WordPress theme concept with salon services, editorial imagery, FAQs, and booking-ready section. Plugins for forms or bookings must be installed separately.</p>
+    <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Luxury salons, spas, estheticians, skincare studios and beauty boutiques</dd></div><div><dt>Built with</dt><dd>WordPress (PHP theme)</dd></div></dl>
+    <p class="store-listing-price">$129 · one-time purchase</p>
+    <div class="store-listing-actions"><a class="store-link-buy" href="https://payhip.com/b/xCiDY" target="_blank" rel="noopener noreferrer" aria-label="Buy for $129 — Veloura Beauty Pro on Payhip">Buy for $129 ↗</a><a class="store-link-primary" href="veloura-beauty-pro-theme/index.html">View live demo <span aria-hidden="true">↗</span></a><a href="veloura-beauty-pro-theme/details.html" class="store-link-secondary">Details &amp; specifications <span aria-hidden="true">↗</span></a></div>
+  </div>
+</article>
+<article class="store-listing" data-tier="premium" data-niche="Construction &amp; Home Services" data-search="ironwood construction | pro construction &amp; home services editorial luxury wordpress block theme with original concept imagery, service cards, project-gallery layouts, native faq blocks and two style variations. plugin-free layout; live quote forms require a separately installed/configured form plugin. general contractors, renovation firms, builders and exterior specialists">
+  <a class="store-listing-visual" href="ironwood-construction-pro-theme/index.html" aria-label="Preview Ironwood Construction | Pro"><img src="ironwood-construction-pro-theme/preview.webp" alt="Ironwood Construction Pro theme with deep green and copper design, photo-based architectural hero" loading="lazy" width="1092" height="656"><span class="store-listing-badge">PREMIUM · PRELAUNCH</span></a>
+  <div class="store-listing-content">
+    <p class="store-listing-kicker">Construction &amp; Home Services</p>
+    <h3>Ironwood Construction | Pro</h3>
+    <p class="store-listing-desc">Editorial luxury WordPress block theme with original concept imagery, service cards, project-gallery layouts, native FAQ blocks and two style variations. Plugin-free layout; live quote forms require a separately installed/configured form plugin.</p>
+    <dl class="store-listing-facts"><div><dt>Best for</dt><dd>General contractors, renovation firms, builders and exterior specialists</dd></div><div><dt>Built with</dt><dd>WordPress · Block Theme (6.6+)</dd></div></dl>
+    <p class="store-listing-price">$129 · one-time purchase</p>
+    <div class="store-listing-actions"><a class="store-link-buy" href="https://payhip.com/b/JTE1I" target="_blank" rel="noopener noreferrer" aria-label="Buy for $129 — Ironwood Construction Pro on Payhip">Buy for $129 ↗</a><a class="store-link-primary" href="ironwood-construction-pro-theme/index.html">View live demo <span aria-hidden="true">↗</span></a><a href="ironwood-construction-pro-theme/details.html" class="store-link-secondary">Details &amp; specifications <span aria-hidden="true">↗</span></a></div>
+  </div>
+</article>
+<article class="store-listing" data-tier="premium" data-niche="Restaurants &amp; Food" data-search="sable &amp; saffron | restaurant pro restaurants &amp; food an original asymmetric fine-dining wordpress block theme with an editorial menu ledger, chef story, private dining layouts, and reservation-ready callouts. native layout needs no plugin; accepting bookings requires a separately installed and configured reservations plugin. fine dining, tasting rooms, bistros, chef-led restaurants, wine bars, and private dining venues">
+  <a class="store-listing-visual" href="sable-saffron-restaurant-pro-theme/index.html" aria-label="Preview Sable &amp; Saffron | Restaurant Pro"><img src="sable-saffron-restaurant-pro-theme/preview.webp" alt="Sable and Saffron premium restaurant WordPress theme with dark editorial hero and luxury dining photography" loading="lazy" width="1092" height="656"><span class="store-listing-badge">PREMIUM · PRELAUNCH</span></a>
+  <div class="store-listing-content">
+    <p class="store-listing-kicker">Restaurants &amp; Food</p>
+    <h3>Sable &amp; Saffron | Restaurant Pro</h3>
+    <p class="store-listing-desc">An original asymmetric fine-dining WordPress block theme with an editorial menu ledger, chef story, private dining layouts, and reservation-ready callouts. Native layout needs no plugin; accepting bookings requires a separately installed and configured reservations plugin.</p>
+    <dl class="store-listing-facts"><div><dt>Best for</dt><dd>Fine dining, tasting rooms, bistros, chef-led restaurants, wine bars, and private dining venues</dd></div><div><dt>Built with</dt><dd>WordPress · Block Theme (6.6+)</dd></div></dl>
+    <p class="store-listing-price">$149 · one-time purchase</p>
+    <div class="store-listing-actions"><a class="store-link-buy" href="https://payhip.com/b/gSWhw" target="_blank" rel="noopener noreferrer" aria-label="Buy for $149 — Sable &amp; Saffron Restaurant Pro on Payhip">Buy for $149 ↗</a><a class="store-link-primary" href="sable-saffron-restaurant-pro-theme/index.html">View live demo <span aria-hidden="true">↗</span></a><a href="sable-saffron-restaurant-pro-theme/details.html" class="store-link-secondary">Details &amp; specifications <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>
 <!-- AUTO-CATALOG:END --></div>
