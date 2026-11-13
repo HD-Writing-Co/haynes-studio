@@ -108,3 +108,6 @@ for (const item of items) console.log(`  • ${item.name} — ${item.tier} — $
 
 // B2L PAYHIP ALL-PAGES POSTBUILD
 await import('./apply-payhip-everywhere.mjs');
+
+// Automatically correct preview images for all templates
+await import('./fix-template-preview-paths.mjs');
