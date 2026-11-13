@@ -22,4 +22,5 @@
     "required": [],
     "optional": ["Ecommerce platform or payment provider", "Verified vehicle fitment catalog", "Email marketing platform"]
   }
+  "checkoutUrl": "https://payhip.com/b/XofhE"
 }
