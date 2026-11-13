@@ -1,17 +1,34 @@
+
 {
   "name": "Roadline Auto Parts",
-  "slug": "roadline-auto-parts-template",
+  "slug": "roadline-template",
   "category": "Automotive",
   "price": 49,
   "currency": "USD",
   "priceLabel": "$49 · one-time purchase",
+  "checkoutUrl": "https://payhip.com/b/XofhE",
   "buttonText": "Buy for $49",
   "description": "A premium responsive automotive parts ecommerce storefront built with plain HTML, CSS, and JavaScript.",
   "platform": "HTML / CSS / JavaScript",
   "preview": "preview.png",
   "entry": "index.html",
-  "files": ["index.html", "styles.css", "script.js", "assets/", "README.md", "store-listing.md"],
-  "tags": ["automotive", "auto parts", "ecommerce", "HTML", "CSS", "JavaScript", "responsive"],
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "assets/",
+    "README.md",
+    "store-listing.md"
+  ],
+  "tags": [
+    "automotive",
+    "auto parts",
+    "ecommerce",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "responsive"
+  ],
   "features": [
     "Responsive storefront layout",
     "Vehicle selector interaction",
@@ -20,10 +37,12 @@
     "Custom generated automotive imagery",
     "Vercel-ready static files"
   ],
-  "checkoutUrl": "https://payhip.com/b/XofhE",
   "integrations": {
-  "required": [],
-  "optional": [
-    "Ecommerce platform or payment provider"
-  ]
+    "required": [],
+    "optional": [
+      "Ecommerce platform or payment provider",
+      "Verified vehicle fitment catalog",
+      "Email marketing platform"
+    ]
+  }
 }
