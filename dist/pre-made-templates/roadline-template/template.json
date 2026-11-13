@@ -4,6 +4,8 @@
   "category": "Automotive",
   "price": 49,
   "currency": "USD",
+  "priceLabel": "$49 · one-time purchase",
+  "buttonText": "Buy for $49",
   "description": "A premium responsive automotive parts ecommerce storefront built with plain HTML, CSS, and JavaScript.",
   "platform": "HTML / CSS / JavaScript",
   "preview": "preview.png",
