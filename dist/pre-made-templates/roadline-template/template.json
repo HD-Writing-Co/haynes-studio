@@ -18,9 +18,10 @@
     "Custom generated automotive imagery",
     "Vercel-ready static files"
   ],
+  "checkoutUrl": "https://payhip.com/b/XofhE",
   "integrations": {
-    "required": [],
-    "optional": ["Ecommerce platform or payment provider", "Verified vehicle fitment catalog", "Email marketing platform"]
-    "checkoutUrl": "https://payhip.com/b/XofhE"
-  }
+  "required": [],
+  "optional": [
+    "Ecommerce platform or payment provider"
+  ]
 }
