@@ -73,3 +73,20 @@ body{background:#fff;color:var(--ink)}.header{background:#fff;border-color:#d7e3
     gap: 4px;
   }
 }
+
+
+/* Back2Life Designs - Main Logo */
+.brand-logo {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Smaller logo on mobile devices */
+@media (max-width: 600px) {
+  .brand-logo {
+    width: 190px;
+  }
+}
