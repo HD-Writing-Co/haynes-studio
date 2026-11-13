@@ -102,7 +102,11 @@ function updatePage(html, p, slug) {
 }
 
 function updateCard(card) {
-  const slug = Object.keys(all).find(s => card.includes(`${s}/index.html`) || card.includes(`${s}/demo/index.html`) || card.includes(`data-slug="${s}"`));
+  
+const slug = Object.keys(all).find(s =>
+  card.includes(`${s}/`) ||
+  card.includes(`data-slug="${s}"`)
+);
   if (!slug) return { card, slug: null };
   const p = getProduct(slug);
   const label = p.kind === 'free' ? 'FREE · Instant download via Payhip' : `${p.price} · one-time purchase`;
